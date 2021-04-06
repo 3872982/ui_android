@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.learning.colorFilter.ColorFilterActivity">
+        <activity android:name="com.learning.split.SplitActiviity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.learning.colorFilter.ColorFilterActivity"/>
+        <activity android:name="com.learning.XMode.XfermodesActivity"/>
+        <activity android:name="com.learning.XMode.GuaGuaLeActivity"/>
+        <activity android:name=".ShaderActivity"/>
+        <activity android:name="com.learning.canvas.CanvasTransformActivity"/>
+        <activity android:name="com.learning.split.SplitActiviity"/>
     </application>
 
 </manifest>

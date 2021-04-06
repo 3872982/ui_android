@@ -6,13 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_shader"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="Shader渲染器效果"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_xmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PorterDuff.Mode图层混合模式混合"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_shader" />
+
+    <Button
+        android:id="@+id/btn_guaguale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图层混合实现刮刮乐"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_xmode" />
+
+    <Button
+        android:id="@+id/btn_colorFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="colorFilter颜色滤镜"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_guaguale" />
+
+    <Button
+        android:id="@+id/btn_canvasTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas位置形状变换"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_colorFilter" />
+
+    <Button
+        android:id="@+id/btn_canvasBalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas实例:图片粒子化发散"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_canvasTrans" />
 </androidx.constraintlayout.widget.ConstraintLayout>
