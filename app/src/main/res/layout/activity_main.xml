@@ -65,4 +65,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_canvasTrans" />
+
+    <Button
+        android:id="@+id/btn_splashView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas实例:自定义Splash过渡动画效果"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_canvasBalls" />
+
+    <Button
+        android:id="@+id/btn_drag_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贝塞尔曲线：QQ弹性小球"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_splashView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

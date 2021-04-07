@@ -23,6 +23,7 @@
         <activity android:name="com.learning.canvas.CanvasTransformActivity"/>
         <activity android:name="com.learning.split.SplitActiviity"/>
         <activity android:name="com.learning.SplashView.SplashActivity"/>
+        <activity android:name="com.learning.DragBubble.DragBubbleActivity"/>
     </application>
 
 </manifest>
