@@ -16,7 +16,7 @@
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
-        <activity android:name="com.learning.Path.PathActivity">
+        <activity android:name="com.learning.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,6 +31,9 @@
         <activity android:name="com.learning.split.SplitActiviity"/>
         <activity android:name="com.learning.SplashView.SplashActivity"/>
         <activity android:name="com.learning.DragBubble.DragBubbleActivity"/>
+        <activity android:name="com.learning.Path.PathActivity"/>
+        <activity android:name="com.learning.Path.SearchAnimActivity"/>
+        <activity android:name="com.learning.Path.PathMeasureActivity"/>
     </application>
 
 </manifest>

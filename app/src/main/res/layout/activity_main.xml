@@ -95,4 +95,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_drag_bubble" />
+
+    <Button
+        android:id="@+id/btn_pathmeasure_fly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PathMeasure:环形飞机"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_path_view" />
+
+    <Button
+        android:id="@+id/btn_pathmeasure_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PathMeasure:搜索动效"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pathmeasure_fly" />
 </androidx.constraintlayout.widget.ConstraintLayout>

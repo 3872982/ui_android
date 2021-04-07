@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.learning.DragBubble.DragBubbleActivity;
 import com.learning.Path.PathActivity;
+import com.learning.Path.PathMeasureActivity;
+import com.learning.Path.SearchAnimActivity;
 import com.learning.SplashView.SplashActivity;
 import com.learning.XMode.GuaGuaLeActivity;
 import com.learning.XMode.XModeView;
@@ -69,6 +71,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_path_view:
                 toActivity(PathActivity.class);
+                break;
+            case R.id.btn_pathmeasure_fly:
+                toActivity(PathMeasureActivity.class);
+                break;
+            case R.id.btn_pathmeasure_search:
+                toActivity(SearchAnimActivity.class);
                 break;
         }
     }
