@@ -210,6 +210,8 @@ public class DragBubbleView extends View {
     private void init(int w, int h) {
         mBubbleState = BUBBLE_STATE_DEFAULT;
 
+        //Log.e("test","W:"+w+"h:"+h);
+
         //设置固定气泡圆心初始坐标
         if (mBubFixedCenter == null) {
             mBubFixedCenter = new PointF(w / 2, h / 2);

@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.learning.DragBubble.DragBubbleActivity;
+import com.learning.Path.PathActivity;
 import com.learning.SplashView.SplashActivity;
 import com.learning.XMode.GuaGuaLeActivity;
 import com.learning.XMode.XModeView;
@@ -65,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_drag_bubble:
                 toActivity(DragBubbleActivity.class);
+                break;
+            case R.id.btn_path_view:
+                toActivity(PathActivity.class);
                 break;
         }
     }
